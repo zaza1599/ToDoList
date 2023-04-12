@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Humanbumsuk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 100;
+    padding: 100;
+    box-sizing: border-box;
+    font-family: "휴먼범석체",'Humanbumsuk';
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, royalblue,#F08080);
+}
+
+.wrapper {
+    margin: 120px auto;
+    max-width: 700px;
+    width: 100%;
+    background: #FFDAB9;
+    padding: 25px;
+    border-radius: 6px;
+
+}
+
+.wrapper header {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size:70px;
+    font-weight: 300;
+    font-family: "휴먼범석체",'Humanbumsuk';
+}
+
+.wrapper .inputField {
+    display: flex;
+    margin: 30px auto 20px;
+    height: 50px;
+    width: auto;
+}
+
+.material-symbols-outlined {
+    color: royalblue;
+
+}
+
+.inputField input{
+    color:black;
+    padding-left: 15px;
+    width: 600px;
+    height: 100%;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inputField button {
+    
+    margin-left: 5px;
+    width:50px;
+    height: 100%;
+    border:none;
+    border-radius: 5px;
+    background-color:white;
+    cursor: pointer;
+}
+
+.wrapper .Todolist{
+    display: flex;
+}
+
+.Todolist li {
+    width: 600px;
+    font-size: 20px;
+    list-style: none;
+    position : relative;
+    margin-top: 9px;
+    text-indent: 5px;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList2</title>
+    <link rel="stylesheet" href="/css/ToDoList2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>투두리스트</header>
+        <div class="inputField">
+            <input type="text" id="addValue" placeholder="할 일 추가하깅" autofocus/>
+            <button type="button" id="btn" onclick="addTodo()"><span class="material-symbols-outlined">favorite</span>
+            </button>
+        </div>
+        <div>
+                    <ul id="addTodo" class="Todolist"> 
+                        <li><div id='result'></div></li>
+                    </ul>
+        </div>
+        <div class="footer">
+            <button type="button" id = "allClear" onclick="allClearList()">모두 삭제</button>
+        </div>    
+        
+    </div>
+    
+
+
+
+
+
+
+
+    <script src="/js/ToDoList2.js"></script>
+</body>
+</html>
